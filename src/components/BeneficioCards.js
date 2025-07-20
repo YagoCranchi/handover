@@ -42,10 +42,12 @@ export default function BeneficioCards() {
               </div>
             )}
           </div>
-          <TitleBlock>
-            {card.title}
-          </TitleBlock>
-          <span className="font-montserrat text-[17px] leading-[1.5]
+          <div className='text-[22px]'>
+            <TitleBlock>
+              {card.title}
+            </TitleBlock>
+          </div>
+          <span className="font-montserrat text-[16px] leading-[1.5]
                            tracking-[0.3px] text-[#515054]
                            text-center mb-5 mt-2">
             {card.desc}
